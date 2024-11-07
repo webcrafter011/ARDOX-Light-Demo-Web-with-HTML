@@ -247,3 +247,10 @@ footer span{
     font-weight: 900;
 }
 /* ========== Bot Form Part End ========== */
+
+/* ========== Responsive ========== */
+@media (max-width: 576px) {
+    .botImg{
+        display: none;
+    }
+}
