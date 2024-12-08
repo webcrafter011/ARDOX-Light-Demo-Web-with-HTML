@@ -12,6 +12,7 @@ button.addEventListener('click' , (e)=>{
         fuhadShiblu_nameErr.innerHTML = 'Please Enter your Username'
     }else if(fuhadShiblu_inputPass.value == ''){
         fuhadShiblu_passErr.innerHTML = 'Please Enter your Username'
+        fuhadShiblu_nameErr.innerHTML = ''
     }else{
         fuhadShiblu_nameErr.innerHTML = ''
         fuhadShiblu_inputName.value = ''
